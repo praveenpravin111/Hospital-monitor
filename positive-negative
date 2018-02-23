@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+signed long num1=0;
+cout<<"to find whether entered number is positive or not";
+cout<<"give an input number";
+cin>>num1;
+if(num1>0)
+{
+cout<<"entered num is positive";
+}
+else if(num1<0)
+{
+cout<<"entered num is negative";
+}
+else
+{
+cout<<"number is zero";
+}
+return 0;
+}
